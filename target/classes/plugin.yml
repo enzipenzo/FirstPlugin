@@ -1,0 +1,22 @@
+name: FirstPlugin
+version: 0.0.1-ALPHA-PRERELEASE-3
+main: me.ninexc.firstplugin.FirstPlugin
+api-version: 1.16
+authors: [ 9xc ]
+description: The first plugin i've made (9xc)
+commands:
+  heal:
+    description: heals you to full health instantly
+    aliases: [h]
+  amiaplayer:
+    description: tells you if you are a player or not
+    aliases: player?, player, pl, whattypeofuserami
+    usage: /<command>
+  invulnerable:
+    description: literally makes you invernerable
+    aliases: [inv, in]
+    usage: /<command>
+  uninv:
+    description: reverses the effects of invulnerable
+    aliases: [uninv, uninvulnerable, un]
+    usage: /<command>
